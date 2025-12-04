@@ -728,4 +728,29 @@ ul.dropdown li:hover .dropdown1 {
         width: auto;
     }
 }
+/* ========== DESKTOP VIEW ONLY (min-width: 769px) ========== */
+@media (min-width: 769px) {
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .logo-img {
+    height: 70px;         /* Logo bada & clear */
+    width: auto;          /* Distortion nahi hoga */
+    object-fit: contain;  /* Full image crop nahi hogi */
+  }
+
+  header {
+    padding: 15px 50px;   /* Desktop spacing */
+  }
+
+}
+
 
