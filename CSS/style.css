@@ -132,6 +132,24 @@ ul.dropdown li:hover .dropdown1 {
     box-shadow: var(--box-shadow);
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo-img {
+    height: 55px;
+    width: auto;
+     width: auto;       /* width ko auto karne se image crop nahi hogi */
+    border-radius: 0;  /* remove circle so full shape visible */
+    object-fit: contain; /* ensures full logo fits without cutting */
+}
+
 .header .logo {
     font-size: 2.5rem;
     font-weight: bolder;
@@ -752,5 +770,6 @@ ul.dropdown li:hover .dropdown1 {
   }
 
 }
+
 
 
