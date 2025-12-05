@@ -164,6 +164,7 @@ strong{
     margin: 0 40px;
     padding: 30px;
     border: 1px solid #eee;
+	border-radius: 10px;
     background-color: #FFFF00;
 }
 h4{
@@ -299,6 +300,3 @@ textarea{
       }
 
 }
-
-
-
