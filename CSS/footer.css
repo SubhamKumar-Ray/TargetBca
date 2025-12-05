@@ -197,6 +197,27 @@ textarea{
 #submit:hover{
     background-color: green;
 }
+.center-box {
+    display: flex;
+    justify-content: center;   /* Horizontally center */
+    align-items: center;       /* Vertically center */
+    gap: 10px;                 /* Space between button and text */
+    width: 100%;               /* Full width for perfect center */
+    margin-top: 10px;
+}
+
+#submit {
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+.btn-text {
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(45deg, red, blue, green, orange);
+    -webkit-background-clip: text;
+    color: transparent;
+}
 /* footer end section  */
 
 
@@ -298,4 +319,5 @@ textarea{
         left: 220px;    
         top: 20px;
       }
+
 }
