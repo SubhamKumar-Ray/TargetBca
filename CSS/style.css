@@ -747,7 +747,7 @@ ul.dropdown li:hover .dropdown1 {
     }
 }
 /* ========== DESKTOP VIEW ONLY (min-width: 769px) ========== */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
   .logo {
     display: flex;
@@ -760,7 +760,7 @@ ul.dropdown li:hover .dropdown1 {
   }
 
   .logo-img {
-    height: 48px;         /* Logo bada & clear */
+    height: 40px;         /* Logo bada & clear */
     width: auto;          /* Distortion nahi hoga */
     object-fit: contain;  /* Full image crop nahi hogi */
   }
@@ -770,6 +770,7 @@ ul.dropdown li:hover .dropdown1 {
   }
 
 }
+
 
 
 
