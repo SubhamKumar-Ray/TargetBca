@@ -72,6 +72,39 @@ ul li {
 
 }
 
+/*.dropdown a[href=""]::after,
+.dropdown1 a:not([href])::after 
+{
+    content: " (Coming Soon)";
+    color: orange;
+    font-size: 12px;
+}*/
+/* If link is empty → Coming Soon */
+.dropdown a[href=""]::after,
+.dropdown1 a[href=""]::after {
+    content: " (Coming Soon)";
+    color: orange;
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+/* Disable click on empty links */
+.dropdown a[href=""],
+.dropdown1 a[href=""] {
+    pointer-events: none;
+    color: gray;
+}
+
+/* If link is provided → Green Tick */
+.dropdown a[href]:not([href=""])::after,
+.dropdown1 a[href]:not([href=""])::after {
+    content: " ✓";
+    color: green;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+
 .dropdown li:hover {
     background: var(--green);
 }
